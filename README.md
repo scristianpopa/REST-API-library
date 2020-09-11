@@ -1,8 +1,9 @@
 //COPYRIGHT STEFAN CRISTIAN POPA 2020//
 
-	The client runs in an infinite loop and stops only when the 'exit' command
+The client runs in an infinite loop and stops only when the 'exit' command
 is given. In every cycle a new connection to the server is being created and a
 new command is expected.
+
 	The accepted commands are as follows:
 	- register: create a new user account
 		register
@@ -23,4 +24,4 @@ new command is expected.
 	- logout: logs the client out of the current account
 	- exit: stop the application
 
-	To run the application, run make and make run in the terminal.
+	To run the application, type 'make' and 'make run' in the terminal.
